@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Endpoint Throttling</title>
+</head>
+<body>
+  <h1>SQL Endpoint Throttling</h1>
+
+  <p>
+    SQL endpoints can be throttled when query workloads place sustained pressure on the
+    underlying warehouse. Throttling may show up as slower query response times or
+    temporary limits on concurrent queries.
+  </p>
+
+  <p>
+    Typical SQL throttling behaviors:
+  </p>
+  <ul>
+    <li>Queries taking longer to complete during peak usage</li>
+    <li>Reduced concurrency for heavy analytical queries</li>
+    <li>Timeouts or resource limit messages for extreme workloads</li>
+  </ul>
+
+  <p>
+    To reduce SQL throttling:
+  </p>
+  <ul>
+    <li>Optimize queries and indexes where applicable</li>
+    <li>Avoid running many complex queries simultaneously</li>
+    <li>Use monitoring to identify high-pressure time windows</li>
+  </ul>
+</body>
+</html>

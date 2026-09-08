@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pipeline Throttling</title>
+</head>
+<body>
+  <h1>Pipeline Throttling</h1>
+
+  <p>
+    Pipelines in Microsoft Fabric can be throttled when too many activities run at once or
+    when their combined resource usage exceeds capacity limits. Throttling may manifest as
+    delayed starts, slower execution, or queued runs.
+  </p>
+
+  <p>
+    Typical pipeline throttling behaviors:
+  </p>
+  <ul>
+    <li>Runs waiting in a queue before execution</li>
+    <li>Longer overall pipeline duration under heavy load</li>
+    <li>Limited parallelism enforced by the platform</li>
+  </ul>
+
+  <p>
+    To reduce pipeline throttling:
+  </p>
+  <ul>
+    <li>Stagger heavy jobs instead of running them all at once</li>
+    <li>Optimize data movement and transformations</li>
+    <li>Monitor CU usage during peak pipeline windows</li>
+  </ul>
+</body>
+</html>

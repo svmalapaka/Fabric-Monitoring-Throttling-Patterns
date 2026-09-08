@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Notebook Throttling</title>
+</head>
+<body>
+  <h1>Notebook Throttling</h1>
+
+  <p>
+    Notebooks can be throttled when their sessions consume excessive compute or when many
+    notebooks run concurrently on the same capacity. Throttling may appear as slower cell
+    execution or delayed session start.
+  </p>
+
+  <p>
+    Common notebook throttling patterns:
+  </p>
+  <ul>
+    <li>Cells taking longer to execute under load</li>
+    <li>Sessions waiting for resources before starting</li>
+    <li>Resource limits affecting large joins or aggregations</li>
+  </ul>
+
+  <p>
+    To mitigate notebook throttling:
+  </p>
+  <ul>
+    <li>Break large jobs into smaller, more efficient steps</li>
+    <li>Avoid running many heavy notebooks at the same time</li>
+    <li>Use monitoring to understand peak usage periods</li>
+  </ul>
+</body>
+</html>
